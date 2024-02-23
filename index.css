@@ -6,6 +6,7 @@ body{
 	color:white;
 	font-weight: bold;
 	margin-top: 150px;
+	overflow: hidden; //
 }
 
 h1{
@@ -60,6 +61,7 @@ button:active{
 		font-weight: bold;
 /* 		margin-top:190px; */
 		margin-top:250px;
+		overflow: hidden; //
 	}
 
 	#total-container {
