@@ -29,6 +29,7 @@ button{
 	font-weight: bold;
 	transition: all 0.01s ease;
 	margin-bottom:7px;
+	cursor: pointer;
 }
 
 button:hover{
@@ -87,6 +88,7 @@ button:active{
 		font-weight: bold;
 		transition: all 0.01s ease;
 		margin-bottom:10px;
+		cursor: pointer;
 	}
 
 	button:hover{
