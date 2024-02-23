@@ -58,7 +58,8 @@ button:active{
 		background-size:cover;
 		color:white;
 		font-weight: bold;
-		margin-top:250px;
+		margin-top:190px;
+/* 		margin-top:250px; */
 	}
 
 	#total-container {
