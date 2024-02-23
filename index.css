@@ -5,6 +5,7 @@ body{
 	background-size:cover;
 	color:white;
 	font-weight: bold;
+	margin-top: 150px;
 }
 
 h1{
@@ -16,16 +17,16 @@ h1{
 }
 
 button{
-	width:150px;
+	width:180px;
 	background-color:goldenrod;
-	border-radius:1px;
+	border-radius:3px;
 	color:#016f32;
 	border:none;
-	padding-top:5px;
-	padding-bottom:5px;
+	padding-top:9px;
+	padding-bottom:9px;
 	font-weight: bold;
 	transition: all 0.01s ease;
-	margin-bottom:5px;
+	margin-bottom:7px;
 }
 
 button:hover{
@@ -33,13 +34,18 @@ button:hover{
 }
 
 button:active{
-	transform:scale(0.96);
+	transform:scale(0.90);
 }
 
 #btn-container{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+#total-container{
+	transform: scale(1.2);
+	transform-origin: 1 0;
 }
 
 @media only screen and (max-width: 600px) {
