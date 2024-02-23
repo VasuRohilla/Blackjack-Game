@@ -41,3 +41,49 @@ button:active{
 	flex-direction: column;
 	align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  
+	body{
+		text-align: center;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		background-image:url("poker-table-mobile.png");
+		background-repeat: no-repeat;
+		background-size:cover;
+		color:white;
+		font-weight: bold;
+		margin-top:250px;
+	}
+
+	#total-container {
+	  transform: scale(1.3);
+	  transform-origin: 1 0;
+	}
+
+	button{
+		width:170px;
+		background-color:goldenrod;
+		border-radius:3px;
+		color:#016f32;
+		border:none;
+		padding-top:10px;
+		padding-bottom:10px;
+		font-weight: bold;
+		transition: all 0.01s ease;
+		margin-bottom:10px;
+	}
+
+	button:hover{
+		background-color: darkgoldenrod;
+	}
+
+	button:active{
+		transform:scale(0.90);
+	}
+
+	#btn-container{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
