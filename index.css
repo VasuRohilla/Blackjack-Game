@@ -90,6 +90,7 @@ h3{
 	}
 
   body{
+	  margin-top: 0px;
   	  background-image: url("poker-table.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
